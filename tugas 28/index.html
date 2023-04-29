@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>tugas CSS -Niomic</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <style media="screen">
+            div{
+                background: #333333;
+                text-align:start;
+                border: 1px;
+                padding: 50px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <br>
+            <img src="lampung.jpg" class="rounded-circle mx-auto d-block" alt="" width="300px" height="200px">
+            <form>
+                <div class="form-group">
+                    <label >Nama Lengkap</label>
+                    <input type="text" class="form-control" placeholder="Nama Lengkap">
+                </div>
+                <div class="form-group">
+                    <label>Alamat </label>
+                    <textarea name="Alamat" id="" class="form-control" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Alamat Email</label>
+                    <input type="email" class="form-control" placeholder="alamat email (disable)">
+                </div>
+                <div class="form-group">
+                    <label>password</label>
+                    <input type="password" class="form-control" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <label>Scan KTP</label>
+                    <input type="file" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" class="form-check-input">
+                    <label>
+                        Saya setuju membaca 
+                        <a class="link-primary" href="#">aturan</a> serta
+                        <a class="link-primary" href="#">ketentuan</a>yang berlaku.
+                    </label>
+                </div>
+                <br>
+                <div class="text-center">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-info" type="button">submit</button>
+                    </div>
+                </div>
+                
+
+            </form>
+        </div>
+    </body>
+</html>
